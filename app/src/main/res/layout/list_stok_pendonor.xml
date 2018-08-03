@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFF3F4D7">
+
+        <TextView
+            android:id="@+id/stok_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Pendonor :"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/stok_gol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan Darah :"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/stok_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat:"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/stok_no_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No HP :"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/stok_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal :"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PMI Penggolongan Darah Admin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="golDarSpinner">
+        <item>Golongan Darah</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+        <item>O-</item>
+        <item>O+</item>
+    </string-array>
+
+    <string-array name="JKSpinner">
+        <item>Jenis Kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="tglLaporan">Tanggal :</string>
+    <string name="golDarAmin">Gol darah A- :</string>
+    <string name="golDarAplus">Gol darah A+ :</string>
+    <string name="golDarBmin">Gol darah B- :</string>
+    <string name="golDarBplus">Gol darah  B+ :</string>
+    <string name="golDarABmin">Gol darah AB- :</string>
+    <string name="golDarABplus">Gol darah AB+ :</string>
+    <string name="golDarOmin">Gol darah O- :</string>
+    <string name="golDarOplus">Gol darah O+ :</string>
+    <string name="jumStok">Jumlah :</string>
+
+    <string name="namaPendonor">Nama anggota : </string>
+    <string name="golDarPendonor">Golongan Darah : </string>
+    <string name="alamatPendonor">Alamat : </string>
+    <string name="noHPPendonor">No.Hp : </string>
+    <string name="tglDaftarPendonor">Tanggal : </string>
+
+    <string name="namaTPendonor">Nama : </string>
+    <string name="golDarTPendonor">Golongan Darah : </string>
+    <string name="almtTPendonor">Alamat : </string>
+    <string name="noHPTPendonor">No.Hp : </string>
+    <string name="tgllhrTPendonor">Tanggal Lahir: </string>
+    <string name="JKTPendonor">Jenis Kelamin : </string>
+    <string name="PekerjaanTPendonor">Pekerjaan : </string>
+    <string name="BBTPendonor">Berat Badan : </string>
+    <string name="TBTPendonor">Tinggi Badan : </string>
+
+
+    <string name="jumlah">Jumlah : </string>
+    <string name="GolDar">Golongan Darah</string>
+
+    <string name="tglEvent">Tanggal : </string>
+    <string name="tmpEvent">Kunjungi : </string>
+    <string name="jamEvent">Pukul : </string>
+</resources>

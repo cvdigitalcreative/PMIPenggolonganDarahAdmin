@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "759064547225",
+    "firebase_url": "https://pmipenggolongandarah.firebaseio.com",
+    "project_id": "pmipenggolongandarah",
+    "storage_bucket": "pmipenggolongandarah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759064547225:android:958bfc4e8e7d6544",
+        "android_client_info": {
+          "package_name": "com.example.user.pmipenggolongandarah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759064547225-fnqsgq5is879f7g0kf3jksmihc7qgq1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pmipenggolongandarah",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "759064547225-bpf75fp04ivd83bhko861ia7nb7sa94a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTQdF7NvwDARIULDrOf2gw21gzTSuAxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759064547225-bpf75fp04ivd83bhko861ia7nb7sa94a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759064547225:android:fda5199c10806e7a",
+        "android_client_info": {
+          "package_name": "com.example.user.pmipenggolongandarahadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759064547225-t2b10f9qidacvhojhdqa5f73tc09on5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pmipenggolongandarahadmin",
+            "certificate_hash": "99ae5db592a9ba03f38d473f4e4d522ac5fabdda"
+          }
+        },
+        {
+          "client_id": "759064547225-bpf75fp04ivd83bhko861ia7nb7sa94a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTQdF7NvwDARIULDrOf2gw21gzTSuAxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759064547225-bpf75fp04ivd83bhko861ia7nb7sa94a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

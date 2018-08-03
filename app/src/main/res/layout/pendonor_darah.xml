@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambah Pendonor Darah"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/et_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/s_golDar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/golDarSpinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+            <Spinner
+                android:id="@+id/s_JK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jenis Kelamin"
+                android:entries="@array/JKSpinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_Pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pekerjaan"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_NHP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No.HP"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_TLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Lahir"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_BBadan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Berat Badan"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/et_TBadan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tinggi Badan"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn_Tambah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="Tambah"/>
+
+                <Button
+                    android:id="@+id/btn_Kembali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="Kembali"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_red_dark"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
